@@ -1,3 +1,3 @@
-# Aizero Technologies
+# Aizero Labs
 
 MENPORUL SEVAGAN!
