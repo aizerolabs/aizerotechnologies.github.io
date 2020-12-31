@@ -1,119 +1,634 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>AIZERO</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-<body>
 
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-				<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-				<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-				<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg04.jpg');"></div>
-	</div>
+  <head>
 
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-25">
-				Aizero
-			</h3>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-			<p class="m2-txt1 txt-center p-b-48">
-				M E N P O R U L&nbsp;&nbsp;&nbsp;&nbsp;S E V A G A N
-			</p>
+    <title>Aizero</title>
 
-			<div class="flex-w flex-c-m cd100 p-b-33">
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 days">0</span>
-					<span class="s2-txt1">Days</span>
-				</div>
+<!--
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 hours">0</span>
-					<span class="s2-txt1">Hours</span>
-				</div>
+Breezed Template
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 minutes">0</span>
-					<span class="s2-txt1">Minutes</span>
-				</div>
+https://templatemo.com/tm-543-breezed
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 seconds">0</span>
-					<span class="s2-txt1">Seconds</span>
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-breezed.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a class="navbar-brand" href="index.html"> <img src="img/logo.svg" alt="logo"> </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#features">Services</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">Drop Down</a>
+                                <ul>
+                                    <li><a href="#projects">Projects</a></li>
+									<li><a href="">Products</a></li>
+                                    <li><a href="">Features</a></li>
+                                    <li><a href="">FAQ's</a></li>
+                                    <li><a href="">Blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> 
+                            <div class="search-icon">
+                                <a href="#search"><i class="fa fa-search"></i></a>
+                            </div>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    
+    <!-- ***** Search Area ***** -->
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form id="contact" action="/" method="get">
+            <fieldset>
+                <input type="search" name="q" placeholder="SEARCH KEYWORD(s)" aria-label="Search through site content">
+            </fieldset>
+            <fieldset>
+                <button type="submit" class="main-button">Search</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-01.jpg" alt="">
+                <div class="text-content">
+                  <h3>MENPORUL SEVAGAN</h3>
+                  <h5>Software Development & Consulting</h5>
+                  <a href="#" class="main-stroked-button">Learn More</a>
+                  <!-- <a href="#" class="main-filled-button">Get It Now</a> -->
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-02.jpg" alt="">
+                <div class="text-content">
+                  <h3>Create | Integrate | Deliver</h3>
+                  <h5>Solution on your hand</h5>
+                  <a href="#" class="main-stroked-button">Read More</a>
+                  <!-- <a href="#" class="main-filled-button">Take Action</a> -->
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-01.jpg" alt="">
+                <div class="text-content">
+                  <h3>Your Vision | Our Mission</h3>
+                  <h5>Success depends on work</h5>
+                  <a href="#" class="main-stroked-button">Learn More</a>
+                  <!-- <a href="#" class="main-filled-button">Get It Now</a> -->
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+		  <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-02.jpg" alt="">
+                <div class="text-content">
+                  <h3>Creating Unique Products</h3>
+                  <h5>What we aim for</h5>
+                  <a href="#" class="main-stroked-button">Read More</a>
+                  <!-- <a href="#" class="main-filled-button">Take Action</a> -->
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+        </div>
+    </div>
+    <div class="scroll-down scroll-to-section"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>About Us</h6>
+                            <h2>We provide the perfect solution for your business needs!</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/service-item-01.png" alt="">
+                                    <h4>Top Notch</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/service-item-01.png" alt="">
+                                    <h4>Robust</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/contact-info-03.png" alt="">
+                                    <h4>Reliable</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/contact-info-03.png" alt="">
+                                    <h4>Up-to-date</h4>
+                                </div>
+                            </div>
+							<br><br>
+                            <div class="col-md-12">
+                                <a href="#" class="main-button-icon">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p><a rel="nofollow noopener" href="https://templatemo.com/contact" target="_parent">Aizero</a> Technologies is one of the upcoming Software Development and Consulting Company with operations in South India. We primarily focus on Integrated Solutions for IT Services, Software Development, Software Management and Maintenance, Managed Processes, Consultancy, Products and Project Management services to our clients. 
+                        <br><br>We dedicated to develop innovative and creative products and services that provide total communication and information solutions to the clients and partners as part of its package-based solutions approach to clients across the globe.
+                      <br><br>Our emphasis is on offering a high degree of product user friendliness through a channel of positive and focused company staff. You can feel free to <a rel="nofollow noopener" href="https://templatemo.com/contact" target="_parent">talk to us</a> if you have anything.</p>
+                    <br>Thank you.
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->    
+    <!-- ***** Services Area Start ***** -->
+    <section class="section" id="features">
+        <div class="container">		
+		<div class="section-heading">
+			<h6>Our Services</h6>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">					
+				<div class="features-item">
+					<div class="features-icon">
+						<img src="assets/images/features-icon-1.png" alt="">
+					</div>
+					<div class="features-content">
+						<h4>Custom Development</h4>
+						<p>Whether you are a start-up or an established business Organization, we are ready to assist you at every stage of the software development — from conceptualization and consulting to development and support.</p>
+						<a href="#" class="text-button-icon">
+							Learn More <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
 				</div>
 			</div>
-
-			<form class="w-full flex-w flex-c-m validate-form">
-
-				<div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
-					<span class="focus-input100"></span>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+				<div class="features-item">
+					<div class="features-icon">
+						<img src="assets/images/features-icon-1.png" alt="">
+					</div>
+					<div class="features-content">
+						<h4>Web Development</h4>
+						<p>Our team has a wealth of experience in building web applications. We are also experts in many verticals and business domains, including e-Commerce, e-Learning, Ad-Tech, Finance, Entertainment, and more.</p>
+						<a href="#" class="text-button-icon">
+							Learn More <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
 				</div>
-
-
-				<button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-					Subscribe
-				</button>
-			</form>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+				<div class="features-item">
+					<div class="features-icon">
+						<img src="assets/images/features-icon-1.png" alt="">
+					</div>
+					<div class="features-content">
+						<h4>Mobile Development</h4>
+						<p>We develop up-to-date, promising and highly usable mobile apps that solve business problems, attract users, and reinforce your brand. We build native, hybrid, and cross-platform apps with responsive design and more.</p>
+						<a href="#" class="text-button-icon">
+							Learn More <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+            </div>
 		</div>
-	</div>
+    </section>
+    <!-- ***** Services Area End ***** -->
+    
 
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 2020,
-			endtimeMonth: 12,
-			endtimeDate: 31,
-			endtimeHours: 00,
-			endtimeMinutes: 00,
-			endtimeSeconds: 00,
-			timeZone: ""
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-	<script src="js/timer.js"></script>
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="section-heading">
+                        <h6>Our Organization</h6>
+						<br>
+						<h3><div style="font-size:26px;">ARTIFICIAL INTELLIGENCE | BIGDATA | MACHINE LEARNING</div></h3>
+                    </div>
+                    <div class="subscribe-content">
+                        <p>Started its formal operations in the year 2014 and based in Tamilnadu, India. Aitech is now known as Aizero Technologies Pvt. Ltd. has been in the field of IT since 2016.
+						<br><br>
+                        Since, we are a technology-centric organization. We believe that our solutions will soon become one of the biggest segments in the industry. We’ve only just started, but we already know that every product we build requires hard-earned skills, dedication and a daring attitude. Our approach focuses on new ways of business combining IT innovation and adoption while also leveraging on organization's current IT assets.</p>
+						<div class="subscribe-form">
+                            <form id="subscribe-now" action="" method="get">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                      <fieldset>
+                                        <input name="email" type="text" id="email" placeholder="Enter your email..." required="">
+                                      </fieldset>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <fieldset>
+                                        <button type="submit" id="form-submit" class="main-button">Jion With Us</button>
+                                      </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
 
-</body>
+
+    <!-- ***** Projects Area Starts ***** -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="section-heading">
+                    <h6>Our Projects</h6>
+                    <h2>Some of our latest projects</h2>
+                </div>
+                <div class="filters">
+                    <ul>
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".des">Web Design</li>
+                        <li data-filter=".dev">Web Development</li>
+                        <li data-filter=".gra">Graphics</li>
+                        <li data-filter=".tsh">Artworks</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="filters-content">
+                    <div class="row grid">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                          <div class="item">
+                            <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
+                          <div class="item">
+                            <a href="assets/images/project-big-item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-02.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
+                          <div class="item">
+                            <a href="assets/images/project-big-item-03.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-03.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all tsh">
+                          <div class="item">
+                            <a href="assets/images/project-big-item-04.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-04.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
+                          <div class="item">
+                            <a href="assets/images/project-big-item-05.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-05.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                          <div class="item">
+                            <a href="assets/images/project-big-item-06.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-06.jpg" alt=""></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Projects Area Ends ***** -->
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h6>our Team</h6>
+                        <h2>A Young and Smarter IT Talented Members</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-01.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <h4>Arulnehru Chinnadurai</h4>
+                            <span>Founder & Tech Head</span> -->
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-04.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <h4>Ishwarya Maruthaiyan</h4>
+                            <span>CEO</span> -->
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-02.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <h4>Prabhu Uvanthaan</h4>
+                            <span>Co-Founder</span> -->
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-05.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                           <!--  <h4>.04 Catherine Phyu</h4>
+                            <span>Co Founder</span> -->
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-03.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                           <!--  <h4>.05 Shao Lynn</h4>
+                            <span>Chief Marketing</span> -->
+                        </div>
+                        
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-04.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <h4>.06 Emma Honey</h4> -->
+                            <!-- <span>Digital Influencer</span> -->
+                        </div>
+                        
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-06.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <h4>.07 Oliva Sofie</h4> -->
+                            <!-- <span>Website Analyst</span> -->
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Contact Us</h6>
+                            <h2>Feel free to keep in touch with us!</h2>
+                        </div>
+                        <ul class="contact-info">
+                            <li><img src="assets/images/contact-info-01.png" alt="">0431-4001601</li>
+                            <li><img src="assets/images/contact-info-02.png" alt="">info@aizero.io</li>
+                            <li><img src="assets/images/contact-info-03.png" alt="">www.aizero.io</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="get">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Your Phone" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="email" id="email" placeholder="Your Email *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Send Message Now <i class="fa fa-arrow-right"></i></button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                    <div class="left-text-content">
+                        <p>&copy; 2020. Aizero Technologies (P) Limited. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><p>Follow Us</p></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
 </html>
