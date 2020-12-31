@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="161px" height="81px" viewBox="0 0 161 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>logo</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Comfortaa-Bold, Comfortaa-Regular" font-size="48" font-weight="bold" letter-spacing="-0.4">
-        <g id="Group" fill="#F99137">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Comfortaa-Bold, Comfortaa" font-size="48" font-weight="bold" letter-spacing="-0.4">
+        <g id="Group">
             <text id="aizero">
-                <tspan x="3.964" y="53">aizero</tspan>
+                <tspan x="3.964" y="53" fill="#F99137">ai</tspan>
+                <tspan x="50.06" y="53" fill="#B9B8B2">zero</tspan>
             </text>
         </g>
     </g>
